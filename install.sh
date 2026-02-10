@@ -38,6 +38,7 @@ PACKAGES=(
     "r"                        # R-Lang
     "rstudio-desktop-bin"      # AUR 
     "jetbrains-toolbox"        # AUR
+    "balena-etcher"            # AUR
 )
 
 echo -e "${GREEN}Installiere Pakete...${NC}"
