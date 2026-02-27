@@ -29,7 +29,7 @@ PACKAGES=(
     "fastfetch"
     
     # Internet & Kommunikation
-    "firefox"
+    "zen-browser"
     "thunderbird"
     "localsend-bin"          # AUR
     
