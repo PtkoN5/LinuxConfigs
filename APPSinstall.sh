@@ -4,7 +4,7 @@
 GREEN='\033[0;32m'
 NC='\033[0m'
 
-echo -e "${GREEN}Starte die Installation deiner personalisierten Liste...${NC}"
+echo -e "${GREEN}Starten der Installation...${NC}"
 
 # 1. System Update
 echo -e "${GREEN}Aktualisiere System...${NC}"
@@ -13,7 +13,7 @@ sudo pacman -Syu --noconfirm
 # 2. Basis
 if ! command -v yay &> /dev/null
 then
-    echo -e "${GREEN}Installiere git und yay (AUR Helper)...${NC}"
+    echo -e "${GREEN}Installiere git und yay...${NC}"
     sudo pacman -S --needed --noconfirm base-devel git
     git clone https://aur.archlinux.org/yay.git
     cd yay && makepkg -si --noconfirm
